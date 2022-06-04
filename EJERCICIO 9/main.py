@@ -6,7 +6,7 @@ class TestPalindromo(unittest.TestCase):
     __palindromo: Palindromo
 
     def SetUP(self):
-        self.__palindromo = Palindromo("MENEM")
+        self.__palindromo = Palindromo("anana")
 
     def test_espalindromo(self):
         self.assertTrue(self.__palindromo.esPalindromo())
